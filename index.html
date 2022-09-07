@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    ></script>
+    <script src="./assets/moment.js"></script>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <title>Weather Dash</title>
+  </head>
+  <body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Weather Dash</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" id=cityWeather type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" onclick="getLocationWeather()">Search</button>
+          </form>
+        </div>
+      </nav>
+      <aside class="container text-center">
+        <div class="row">
+          <div class="col-2 search-history">
+            Search History
+          </div>
+          <div class="col-10 current-search">
+            2 of 3 (wider)
+          </div>
+        </div>
+
+      </aside>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>

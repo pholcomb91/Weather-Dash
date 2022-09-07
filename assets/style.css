@@ -1,0 +1,8 @@
+.search-history {
+    background-color: bisque;
+    color: rgb(211, 137, 1);
+}
+.current-search {
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
