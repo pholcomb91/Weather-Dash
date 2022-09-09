@@ -6,3 +6,9 @@
     background-color: rgb(255, 255, 255);
     color:black;
 }
+.nav-bar {
+    background-image: linear-gradient(to bottom right, blue, red);
+}
+.search-button {
+    opacity: 0.5;
+}
