@@ -24,63 +24,74 @@
       </nav>
       <main class="container text-center justify-content-center">
         <div class="col">
-          <div class="justify-center col-10 search-history">
+          <div class="justify-content-center search-history">
             Search History
             <ul id="searchHistory" class="justify-content-center col"></ul>
           </div>
-          <div class="container current-search row">
+          <div class="container current-search row justify-content-center">
             <div class="card" style="width: 18rem;">
               <div class="card-body">
                 <h5 class="card-title" id="city"></h5>
                 <h6 class="card-subtitle mb-2 text-muted" id="date"></h6>
-                <ul class="card-text" id="weather">
-                  <li id="currentTemp"></li>
-                  <li id="currentWindSpeed"></li>
-                  <li id="currentHumidity"></li>
-                  <li class="uvi" id="currentUvi"></li>
-                </ul>
+                <div class="card-text" id="weather">
+                  <p id="currentTemp"></p>
+                  <p id="currentWindSpeed"></p>
+                  <p id="currentHumidity"></p>
+                  <p class="uvi" id="currentUvi"></p>
+                </div>
               </div>
             </div>
           </div>
-        <div class="row">
-          <button id= "date1" class="btn btn-primary cardWidth" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div id= "weather" class="card card-body cardWidth">
-              <p id="tempDay1"></p>
-              <p id="windSpeed1"></p>
-              <p id="humidity1"></p>
+          <!--------------above, Current--------below,Forecast------------>
+        <div class="row justify-content-center">
+          <div class="dayCard">
+            <button id= "date1" class="btn btn-primary cardWidth col" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
+            <div class="collapse multi-collapse cardWidth" id="multiCollapseExample1">
+              <div id= "weather" class="card card-body cardWidth">
+                <p id="tempDay1"></p>
+                <p id="windSpeed1"></p>
+                <p id="humidity1"></p>
+              </div>
             </div>
           </div>
-          <button id= "date2" class="btn btn-primary cardWidth" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div id= "weather" class="card card-body cardWidth">
-              <p id="tempDay2"></p>
-              <p id="windSpeed2"></p>
-              <p id="humidity2"></p>
+          <div class="dayCard">
+            <button id= "date2" class="btn btn-primary cardWidth col" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
+            <div class="collapse multi-collapse cardWidth" id="multiCollapseExample1">
+              <div id= "weather" class="card card-body cardWidth">
+                <p id="tempDay2"></p>
+                <p id="windSpeed2"></p>
+                <p id="humidity2"></p>
+              </div>
             </div>
           </div>
-          <button id= "date3" class="btn btn-primary cardWidth" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div id= "weather" class="card card-body cardWidth">
-              <p id="tempDay3"></p>
-              <p id="windSpeed3"></p>
-              <p id="humidity3"></p>
+          <div class="dayCard">
+            <button id= "date3" class="btn btn-primary cardWidth col" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
+            <div class="collapse multi-collapse cardWidth" id="multiCollapseExample1">
+              <div id= "weather" class="card card-body cardWidth">
+                <p id="tempDay3"></p>
+                <p id="windSpeed3"></p>
+                <p id="humidity3"></p>
+              </div>
             </div>
           </div>
-          <button id= "date4" class="btn btn-primary cardWidth" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div id= "weather" class="card card-body cardWidth">
-              <p id="tempDay4"></p>
-              <p id="windSpeed4"></p>
-              <p id="humidity4"></p>
+          <div class="dayCard">
+            <button id= "date4" class="btn btn-primary cardWidth col" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
+            <div class="collapse multi-collapse cardWidth" id="multiCollapseExample1">
+              <div id= "weather" class="card card-body cardWidth">
+                <p id="tempDay4"></p>
+                <p id="windSpeed4"></p>
+                <p id="humidity4"></p>
+              </div>
             </div>
           </div>
-          <button id= "date5" class="btn btn-primary cardWidth" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div id= "weather" class="card card-body cardWidth">
-              <p id="tempDay5"></p>
-              <p id="windSpeed5"></p>
-              <p id="humidity5"></p>
+          <div class="dayCard">
+            <button id= "date5" class="btn btn-primary cardWidth col" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"></button>
+            <div class="collapse multi-collapse cardWidth" id="multiCollapseExample1">
+              <div id= "weather" class="card card-body cardWidth">
+                <p id="tempDay5"></p>
+                <p id="windSpeed5"></p>
+                <p id="humidity5"></p>
+              </div>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ body {
     border-radius: 5px;
 }
 .current-search {
-    background-color: lightskyblue;
+    background-color: lightblue;
     color:black;
     border-radius: 5px;
 }
@@ -72,5 +72,12 @@ ul.card-text {
     color: white
 }
 .cardWidth {
-    width: 60%;
+    width: auto;
+    padding: 0px;
+    margin-right: 0px;
+    
+}
+.dayCard {
+  margin: 5px;
+  width: auto;
 }

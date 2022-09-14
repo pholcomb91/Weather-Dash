@@ -66,9 +66,9 @@ function weather(response) {
         var windSpeed=(data.daily[i].wind_speed);
         var humidity=(data.daily[i].humidity);
         document.getElementById("date" + i).innerHTML=date;
-        document.getElementById("tempDay"+ i).innerHTML=tempDay;
-        document.getElementById("windSpeed"+ i).innerHTML=windSpeed;
-        document.getElementById("humidity"+ i).innerHTML=humidity;
+        document.getElementById("tempDay"+ i).innerHTML="Temerature " +tempDay;
+        document.getElementById("windSpeed"+ i).innerHTML="Wind Speed " +windSpeed;
+        document.getElementById("humidity"+ i).innerHTML="Humidity " +humidity;
       }
       });
   } else {
