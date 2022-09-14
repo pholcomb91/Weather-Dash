@@ -1,14 +1,76 @@
+body {
+    background-color: lightblue;
+}
+
+.title {
+    color:rgb(255, 255, 255);
+    
+}
+
 .search-history {
-    background-color: bisque;
-    color: rgb(211, 137, 1);
+    background-color: rgb(1, 1, 79);
+    color: whitesmoke;
+    opacity: .75;
+    border-radius: 5px;
 }
 .current-search {
-    background-color: rgb(255, 255, 255);
+    background-color: lightskyblue;
     color:black;
+    border-radius: 5px;
 }
 .nav-bar {
-    background-image: linear-gradient(to bottom right, blue, red);
+    height: 50%;
+    opacity: .75;
+    
+    
 }
 .search-button {
-    opacity: 0.5;
+    opacity: 1;
+}
+.current-day {
+    background-color: rgb(14, 82, 155);
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    border: 5px;
+    font-size: 100%;
+    color: whitesmoke;
+    
+}
+.forecast {
+    background-color: rgb(25, 108, 197);
+    width: 144px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+ul.card-text {
+    list-style-type: none;
+
+}
+.uvi {
+    background-color: transparent;
+    color: black;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+}
+.uviAvoid {
+    background-color: red;
+    color: black;
+}
+.uviWarning {
+    background-color: orange;
+    color: black;
+}
+.uviCaution {
+    background-color: yellow;
+    color: black;
+}
+.uviEnjoy {
+    background-color: green;
+    color: white
+}
+.cardWidth {
+    width: 60%;
 }

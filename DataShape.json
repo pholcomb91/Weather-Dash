@@ -1,0 +1,380 @@
+{
+    "lat": 32.7174,
+    "lon": -117.1628,
+    "timezone": "America/Los_Angeles",
+    "timezone_offset": -25200,
+    "current": {
+        "dt": 1662659212,
+        "sunrise": 1662643684,
+        "sunset": 1662689092,
+        "temp": 85.39,
+        "feels_like": 92.44,
+        "pressure": 1009,
+        "humidity": 67,
+        "dew_point": 73.18,
+        "uvi": 6.62,
+        "clouds": 75,
+        "visibility": 6437,
+        "wind_speed": 16.11,
+        "wind_deg": 340,
+        "weather": [
+            {
+                "id": 701,
+                "main": "Mist",
+                "description": "mist",
+                "icon": "50d"
+            }
+        ]
+    },
+    "daily": [
+        {
+            "dt": 1662663600,
+            "sunrise": 1662643684,
+            "sunset": 1662689092,
+            "moonrise": 1662686940,
+            "moonset": 1662635880,
+            "moon_phase": 0.44,
+            "temp": {
+                "day": 85.01,
+                "min": 76.78,
+                "max": 85.41,
+                "night": 82.17,
+                "eve": 83.77,
+                "morn": 76.78
+            },
+            "feels_like": {
+                "day": 90.57,
+                "night": 85.05,
+                "eve": 86.4,
+                "morn": 77.88
+            },
+            "pressure": 1009,
+            "humidity": 64,
+            "dew_point": 71.47,
+            "wind_speed": 13.47,
+            "wind_deg": 336,
+            "wind_gust": 18.84,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 80,
+            "pop": 0.21,
+            "rain": 0.13,
+            "uvi": 8.36
+        },
+        {
+            "dt": 1662750000,
+            "sunrise": 1662730122,
+            "sunset": 1662775412,
+            "moonrise": 1662775500,
+            "moonset": 1662726600,
+            "moon_phase": 0.48,
+            "temp": {
+                "day": 80.89,
+                "min": 76.26,
+                "max": 84.61,
+                "night": 76.26,
+                "eve": 80.42,
+                "morn": 84.18
+            },
+            "feels_like": {
+                "day": 83.19,
+                "night": 77.31,
+                "eve": 83.23,
+                "morn": 86.52
+            },
+            "pressure": 999,
+            "humidity": 62,
+            "dew_point": 66.15,
+            "wind_speed": 25.17,
+            "wind_deg": 69,
+            "wind_gust": 43.82,
+            "weather": [
+                {
+                    "id": 501,
+                    "main": "Rain",
+                    "description": "moderate rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 100,
+            "pop": 1,
+            "rain": 14.99,
+            "uvi": 5.8
+        },
+        {
+            "dt": 1662836400,
+            "sunrise": 1662816560,
+            "sunset": 1662861731,
+            "moonrise": 1662863820,
+            "moonset": 1662817140,
+            "moon_phase": 0.5,
+            "temp": {
+                "day": 79.68,
+                "min": 73.63,
+                "max": 81.09,
+                "night": 75.85,
+                "eve": 77.5,
+                "morn": 75.85
+            },
+            "feels_like": {
+                "day": 79.68,
+                "night": 76.8,
+                "eve": 78.48,
+                "morn": 76.57
+            },
+            "pressure": 1010,
+            "humidity": 69,
+            "dew_point": 67.62,
+            "wind_speed": 17.65,
+            "wind_deg": 183,
+            "wind_gust": 29.86,
+            "weather": [
+                {
+                    "id": 501,
+                    "main": "Rain",
+                    "description": "moderate rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 100,
+            "pop": 1,
+            "rain": 13.61,
+            "uvi": 1.08
+        },
+        {
+            "dt": 1662922800,
+            "sunrise": 1662902997,
+            "sunset": 1662948050,
+            "moonrise": 1662952020,
+            "moonset": 1662907500,
+            "moon_phase": 0.55,
+            "temp": {
+                "day": 79.86,
+                "min": 74.32,
+                "max": 80.65,
+                "night": 75.72,
+                "eve": 77.9,
+                "morn": 74.32
+            },
+            "feels_like": {
+                "day": 79.86,
+                "night": 76.48,
+                "eve": 78.64,
+                "morn": 75.25
+            },
+            "pressure": 1015,
+            "humidity": 67,
+            "dew_point": 67.15,
+            "wind_speed": 9.73,
+            "wind_deg": 237,
+            "wind_gust": 10.6,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "clouds": 21,
+            "pop": 0.27,
+            "uvi": 4.39
+        },
+        {
+            "dt": 1663009200,
+            "sunrise": 1662989435,
+            "sunset": 1663034369,
+            "moonrise": 1663040160,
+            "moonset": 1662997740,
+            "moon_phase": 0.59,
+            "temp": {
+                "day": 78.76,
+                "min": 74.32,
+                "max": 79.02,
+                "night": 74.98,
+                "eve": 77.25,
+                "morn": 74.44
+            },
+            "feels_like": {
+                "day": 78.76,
+                "night": 75.61,
+                "eve": 77.88,
+                "morn": 75.25
+            },
+            "pressure": 1014,
+            "humidity": 67,
+            "dew_point": 66.33,
+            "wind_speed": 9.26,
+            "wind_deg": 256,
+            "wind_gust": 7.34,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "clouds": 14,
+            "pop": 0,
+            "uvi": 5
+        },
+        {
+            "dt": 1663095600,
+            "sunrise": 1663075872,
+            "sunset": 1663120688,
+            "moonrise": 1663128420,
+            "moonset": 1663087860,
+            "moon_phase": 0.62,
+            "temp": {
+                "day": 77,
+                "min": 72.93,
+                "max": 77.5,
+                "night": 72.93,
+                "eve": 76.5,
+                "morn": 73.38
+            },
+            "feels_like": {
+                "day": 77.56,
+                "night": 73.49,
+                "eve": 77.04,
+                "morn": 73.99
+            },
+            "pressure": 1012,
+            "humidity": 67,
+            "dew_point": 64.45,
+            "wind_speed": 10.09,
+            "wind_deg": 264,
+            "wind_gust": 7.29,
+            "weather": [
+                {
+                    "id": 801,
+                    "main": "Clouds",
+                    "description": "few clouds",
+                    "icon": "02d"
+                }
+            ],
+            "clouds": 20,
+            "pop": 0,
+            "uvi": 5
+        },
+        {
+            "dt": 1663182000,
+            "sunrise": 1663162310,
+            "sunset": 1663207006,
+            "moonrise": 1663216800,
+            "moonset": 1663177980,
+            "moon_phase": 0.65,
+            "temp": {
+                "day": 73.51,
+                "min": 70.68,
+                "max": 74.14,
+                "night": 70.68,
+                "eve": 72.93,
+                "morn": 72.77
+            },
+            "feels_like": {
+                "day": 73.94,
+                "night": 70.93,
+                "eve": 73.22,
+                "morn": 73.18
+            },
+            "pressure": 1012,
+            "humidity": 72,
+            "dew_point": 63.25,
+            "wind_speed": 10.29,
+            "wind_deg": 244,
+            "wind_gust": 8.41,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 92,
+            "pop": 0.25,
+            "rain": 0.61,
+            "uvi": 5
+        },
+        {
+            "dt": 1663268400,
+            "sunrise": 1663248747,
+            "sunset": 1663293325,
+            "moonrise": 1663305300,
+            "moonset": 1663268040,
+            "moon_phase": 0.68,
+            "temp": {
+                "day": 74.43,
+                "min": 70.57,
+                "max": 75.27,
+                "night": 71.4,
+                "eve": 73.8,
+                "morn": 70.9
+            },
+            "feels_like": {
+                "day": 74.71,
+                "night": 71.62,
+                "eve": 74.12,
+                "morn": 71.11
+            },
+            "pressure": 1013,
+            "humidity": 67,
+            "dew_point": 61.79,
+            "wind_speed": 12.01,
+            "wind_deg": 279,
+            "wind_gust": 8.7,
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "light rain",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": 64,
+            "pop": 0.24,
+            "rain": 0.15,
+            "uvi": 5
+        }
+    ],
+    "alerts": [
+        {
+            "sender_name": "NWS SanDiego (Southwestern California)",
+            "event": "Excessive Heat Warning",
+            "start": 1662545640,
+            "end": 1662778800,
+            "description": "...EXCESSIVE HEAT WARNING REMAINS IN EFFECT UNTIL 8 PM PDT\nFRIDAY...\n* WHAT...Dangerously hot conditions with temperatures up to 97.\n* WHERE...San Diego County Coastal Areas.\n* WHEN...Until 8 PM PDT Friday.\n* IMPACTS...Extreme heat will significantly increase the\npotential for heat related illnesses, particularly for those\nworking or participating in outdoor activities.",
+            "tags": [
+                "Extreme temperature value"
+            ]
+        },
+        {
+            "sender_name": "NWS SanDiego (Southwestern California)",
+            "event": "Beach Hazards Statement",
+            "start": 1662746400,
+            "end": 1662940800,
+            "description": "...BEACH HAZARDS STATEMENT REMAINS IN EFFECT FROM FRIDAY MORNING\nTHROUGH SUNDAY AFTERNOON...\n* WHAT...A southeast swell from 160 degrees from Tropical Cyclone\nKay and a southwest swell from 200 degrees will generate\nelevated surf of 3 to 6 feet as well as strong rip currents and\nlongshore currents. Highest surf will be on south facing beaches\nof Orange County. Isolated thunderstorms would produce\nlightning strikes.\n* WHERE...San Diego County Coastal Areas and Orange County\nCoastal Areas.\n* WHEN...From Friday morning through Sunday evening. Highest surf\nwill be Saturday into early Sunday. Lightning is possible Friday\nafternoon through Sunday.\n* IMPACTS...Strong rip currents and longshore currents will be\nhazardous, especially for inexperienced swimmers. Minor tidal\noverflow is possible during the high tides each evening.\nLightning will be dangerous to people on the beach or in the\nwater.",
+            "tags": [
+                "Coastal event"
+            ]
+        },
+        {
+            "sender_name": "NWS SanDiego (Southwestern California)",
+            "event": "Gale Watch",
+            "start": 1662739200,
+            "end": 1662868800,
+            "description": "...GALE WATCH IN EFFECT FROM FRIDAY MORNING THROUGH SATURDAY\nEVENING...\n* WHAT...Easterly gales with gusts reaching 35 to 45 knots.\nIsolated to scattered thunderstorms.\n* WHERE...Coastal waters from the San Diego County coast out 60\nNM, including San Clemente Island.\n* WHEN...Friday through Saturday. Strongest winds and highest seas\nare expected Friday afternoon through early Saturday morning.\n* IMPACTS...Strong winds and large wind waves will make navigation\nhazardous. Any thunderstorms would produce lightning and strong,\nerratic winds. Inexperienced mariners, especially those\noperating smaller vessels, should avoid navigating in hazardous\nconditions.",
+            "tags": [
+                "Wind"
+            ]
+        }
+    ]
+}
