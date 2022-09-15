@@ -72,7 +72,7 @@ ul.card-text {
     color: white
 }
 .cardWidth {
-    width: auto;
+    width: 100px;
     padding: 0px;
     margin-right: 0px;
     
